@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNS.CRUDService", "FNS.CRUD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNS.CRUDService.AspNetCore", "FNS.CRUDService.AspNetCore\FNS.CRUDService.AspNetCore.csproj", "{B096B7B2-FF4D-45A7-B1C9-D6D114CA68BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNS.CRUDService.FluentValidation", "FNS.CRUDService.FluentValidation\FNS.CRUDService.FluentValidation.csproj", "{FD0EB31F-044A-4DF5-B578-F1CA455D0A6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B096B7B2-FF4D-45A7-B1C9-D6D114CA68BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B096B7B2-FF4D-45A7-B1C9-D6D114CA68BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B096B7B2-FF4D-45A7-B1C9-D6D114CA68BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0EB31F-044A-4DF5-B578-F1CA455D0A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0EB31F-044A-4DF5-B578-F1CA455D0A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0EB31F-044A-4DF5-B578-F1CA455D0A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0EB31F-044A-4DF5-B578-F1CA455D0A6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

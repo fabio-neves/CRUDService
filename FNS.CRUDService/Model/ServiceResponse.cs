@@ -1,5 +1,4 @@
-﻿using FluentValidation.Results;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
 namespace FNS.CRUDService.Model
@@ -43,18 +42,6 @@ namespace FNS.CRUDService.Model
                 }
             }
 
-            return this;
-        }
-
-        public ServiceResponse<T> AddError(ValidationResult validationResult)
-        {
-            if (!validationResult.IsValid)
-            {
-                foreach (var r in validationResult.Errors)
-                {
-                    this.AddError(r.PropertyName, r.ErrorMessage);
-                }
-            }
             return this;
         }
     }
