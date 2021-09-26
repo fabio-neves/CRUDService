@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Fábio Neves de Souza</Authors>
+    <Description></Description>
+    <RepositoryUrl>https://github.com/fabio-neves/CRUDService</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageProjectUrl>https://github.com/fabio-neves/CRUDService</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
