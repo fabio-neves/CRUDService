@@ -45,4 +45,4 @@ O projeto pretende criar um framework simples para criar uma API CRUD (POST, GET
 ## Tutorial 
 
 
-[![Tutorial](https://img.youtube.com/vi/UFCY4Rvv8oQ/hqdefault.jpg)](https://youtu.be/UFCY4Rvv8oQ){:target="_blank"}
+[![Tutorial](https://img.youtube.com/vi/UFCY4Rvv8oQ/hqdefault.jpg)](https://youtu.be/UFCY4Rvv8oQ)
