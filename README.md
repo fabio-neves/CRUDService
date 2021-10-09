@@ -11,7 +11,7 @@ O projeto pretende criar um framework simples para criar uma API CRUD (POST, GET
 1. Instale o framework no seu projeto asp.net core.  
 
 ```powershell
-    Install-Package FNS.CRUDService
+    Install-Package FNS.CRUDService.AspNetCore
 ```
 2. Crie um modelo para sua api  
 ```csharp
