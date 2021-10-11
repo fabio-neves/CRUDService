@@ -51,7 +51,7 @@ O projeto pretende ajudar na criação de uma API RESTful utilizando asp.net cor
     }
 ```
 
-5. Crie um controller herdando de CRUDCOntroller 
+5. Crie um controller herdando de CRUDController 
 
 ```csharp
     [ApiController]
