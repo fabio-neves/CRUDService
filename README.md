@@ -10,7 +10,7 @@ O projeto pretende ajudar na criação de uma API RESTful utilizando asp.net cor
 ## Tutorial 
 
 <p align="center" width="100%" style="margin-top:60px">
-    <a href="https://youtu.be/UFCY4Rvv8oQ" target="_blank"> <img src="https://img.youtube.com/vi/UFCY4Rvv8oQ/hqdefault.jpg"></a>
+    <a href="https://youtu.be/ktneQnAzOW4" target="_blank"> <img src="https://img.youtube.com/vi/ktneQnAzOW4/hqdefault.jpg"></a>
 </p>
 
 ## Modo de Usar
