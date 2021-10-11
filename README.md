@@ -1,26 +1,35 @@
-# CRUDService - A simple CRUD Framework  
+# CRUDService - Framework para criar uma API RESTful utilizando Asp.Net Core
 
  [![Build status](https://souzinha.visualstudio.com/CRUDService/_apis/build/status/CRUDService)](https://souzinha.visualstudio.com/CRUDService/_build/latest?definitionId=7)
 
 ## Introdução
 
-O projeto pretende criar um framework simples para criar uma API CRUD (POST, GET, PUT, DELETE) utilizando asp.net core.
+O projeto pretende ajudar na criação de uma API RESTful utilizando asp.net core. A proposta é que o desenvolvedor só precise focar no conteúdo e na implementação do serviço deixando com o framework os detalhes necessários para a implementação da API RESTful. 
 
-## Modo de Usar  
 
-1. Instale o framework no seu projeto asp.net core.  
+## Tutorial 
+
+<p align="center" width="100%" style="margin-top:60px">
+    <a href="https://youtu.be/UFCY4Rvv8oQ" target="_blank"> <img src="https://img.youtube.com/vi/UFCY4Rvv8oQ/hqdefault.jpg"></a>
+</p>
+
+## Modo de Usar
+
+1. Crie um novo projeto asp.net core  
+
+2. Instale o framework no seu projeto asp.net core.  
 
 ```powershell
     Install-Package FNS.CRUDService.AspNetCore
 ```
-2. Crie um modelo para sua api  
+3. Crie um modelo com o conteúdo da sua api  
 ```csharp
     public class MinhaEntidade
     {
         [...]
     }
 ```
-3. Crie um serviço que implemente a interface IBaseDomainService
+4. Crie um serviço que irá implementar a interface IBaseDomainService.
 
 ```csharp
     public class MinhaEntidadeServico : IBaseDomainService<MinhaEntidade>
@@ -28,7 +37,21 @@ O projeto pretende criar um framework simples para criar uma API CRUD (POST, GET
         [...]
     }
 ```
-4. Faça seu controller herdar de CRUDCOntroller 
+
+5. Registre o serviço na classe Startup
+
+```csharp
+    public class Startup
+    {
+        public void ConfigureServices(IServiceCollection services)
+        {
+            [...]
+           services.AddTransient<IBaseDomainService<Modelos.MinhaEntidade>, MinhaEntidadeServico>();
+        }
+    }
+```
+
+5. Crie um controller herdando de CRUDCOntroller 
 
 ```csharp
     [ApiController]
@@ -41,8 +64,3 @@ O projeto pretende criar um framework simples para criar uma API CRUD (POST, GET
         }
     }
 ```
-
-## Tutorial 
-
-
-[![Tutorial](https://img.youtube.com/vi/UFCY4Rvv8oQ/hqdefault.jpg)](https://youtu.be/UFCY4Rvv8oQ)
