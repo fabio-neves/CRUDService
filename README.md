@@ -4,7 +4,7 @@
 
 ## Introdução
 
-O projeto pretende ajudar na criação de uma API RESTful utilizando asp.net core. A proposta é que o desenvolvedor só precise focar no conteúdo e na implementação do serviço deixando com o framework os detalhes necessários para a implementação da API RESTful. Para simplificar o desenvolvimento foram utilizados apenas os status code 200 e 422 para representar o sucesso e o erro do serviço. Outros códigos poderão ser utilizados, mas irão indicar problemas relacionados ao processamento da api ou do asp.net core. Como exemplo, a api poderá retornar o status code 400 quando a requisição não estiver formatada corretamente.
+O projeto pretende ajudar na criação de uma API RESTful utilizando asp.net core. A proposta é que o desenvolvedor só precise focar no conteúdo e na implementação do serviço deixando com o framework os detalhes necessários para a implementação da API RESTful. Para simplificar o desenvolvimento foram utilizados apenas os status code 200 e 422 para representar o sucesso e o erro do serviço. Outros códigos serão utilizados, mas irão indicar problemas relacionados ao processamento da api ou do asp.net core. Como exemplo, a api poderá retornar o status code 400 quando a requisição não estiver formatada corretamente.
 
 
 ## Tutorial 
